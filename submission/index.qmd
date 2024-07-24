@@ -1,18 +1,24 @@
 ---
-submission_id: 499
-title: Digital History Switzerland 2024 submission title
+submission_id: 452
+title: Belpop, a history-computer project to study the population of a town during early industrialization
 author:
-  - name: Petra Huber
-    orcid: 0000-0002-0760-5497
-    email: petra.huber@university.ch
+  - name: Laurent Heyberger
+    orcid: 0000-0002-3434-5395
+    email: laurent.heyberger@utbm.fr
     affiliations:
-      - University 1
-  - name: Michel Meier
-    orcid: 0000-0002-7859-8394
-    email: michel.meier@university.edu
+      - UTBM, UMR6174 FEMTO-ST/RECITS
+  - name: Gabriel Frossard
+    orcid: 0009-0004-6655-7028
+    email: gabriel.frossard@utbm.fr
     affiliations:
-      - University 1
-      - University 2
+      - UTBM, CIAD UMR 7533, F-90010 Belfort cedex, France
+  - name: Wissam Al-Kendi
+    orcid: 0000-0003-4239-9964
+    email: wissam.al-kendi@utbm.fr
+    affiliations:
+      - UTBM
+
+
 keywords:
   - Keyword 1
   - Keyword 2
