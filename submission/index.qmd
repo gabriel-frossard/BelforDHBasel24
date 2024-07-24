@@ -20,69 +20,40 @@ author:
 
 
 keywords:
-  - Keyword 1
-  - Keyword 2
-  - Keyword 3
-  - Keyword 4 (optional)
-  - Keyword 5 (optional)
-abstract: |
-  Short abstract of the submission. This is a placeholder for the abstract of the manuscript. It should be between 150 and 250 words. It must not contain any references or unexplained abbreviations.
-key-points:
-  - Key point 1 (1 sentence)
-  - Key point 2 (1 sentence)
-  - Key point 3 (1 sentence)
-date: 03-17-2024
-bibliography: references.bib
----
+  - Demographic history
+  - Industrialization
+  - Handwritten Text Recognition
 
-## Introduction
+abstract: 
+  The Belpop project aims to reconstruct the demographic behavior of the population of a mushrooming working-class town during industrialization: Belfort. Belfort is a hapax in the French urban landscape of the 19th century, as the demographic growth of its main working- class district far outstripped that of the most dynamic Parisian suburbs. The underlying hypothesis is that the massive Alsatian migration that followed the 1870-71 conflict, and the concomitant industrialization and militarization of the city, profoundly altered the demographic behavior of the people of Belfort.
 
-This is a placeholder for the extended abstract of the paper. It should be between 1500 and 2000 words (excluding references).
+This makes Belfort an ideal place to study the sexualization of social relations in 19th-century Europe. These relationships will first be understood through the study of out-of-wedlock births, in their socio-cultural and bio-demographic dimensions. In the long term, this project will also enable to answer many other questions related to event history analysis, a method that is currently undergoing major development, thanks to artificial intelligence (AI), and which is profoundly modifying the questions raised by historical demography and social history.
 
-Check <https://quarto.org/docs/authoring/markdown-basics.html> for more information on how to use markdown, <https://quarto.org/docs/authoring/cross-references.html> for more information on how to use cross-references like this (See @fig-example and @fig-plots), and <https://quarto.org/docs/authoring/footnotes-and-citations.html> for more information on how to use citations like this one [@haber2011, p. 11].
+The contributions of deep learning make it possible to plan a complete analysis of Belfort's birth (ECN) and death (ECD) civil registers (1807-1919), thanks to HTR methods applied to these sources (two interdisciplinary computer science-history theses in progress). This project is part of the SOSI CNRS ObHisPop (Observatoire de l'Histoire de la Population française: grandes bases de données et IA), which federates seven laboratories and aims to share the advances of interdisciplinary research in terms of automating the constitution of databases in historical demography. Challenges also include linking (matching individual data) the ECN and ECD databases, and eventually the DMC database (DMC is the city's main employer of women).
 
-::: {#fig-example}
+  
+date: 07-22-2024
 
-![Figure caption text.](images/placeholder.png)
 
-:::
+Extended abstract:
 
-## Section 1
+The Belpop project aims to reconstruct the demographic behavior of the population of a mushrooming working-class town during industrialization: Belfort. Belfort is a hapax in the French urban landscape of the 19th century, as the demographic growth of its main working- class district far outstripped that of the most dynamic Parisian suburbs. The underlying hypothesis is that the massive Alsatian migration following the 1870-71 conflict, along with concomitant industrialization and militarization of the city, profoundly altered the demographic behavior of the people of Belfort.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi. Proin porttitor, orci nec nonummy molestie, enim est eleifend mi, non fermentum diam nisl sit amet erat. Duis semper. Duis arcu massa, scelerisque vitae, consequat in, pretium a, enim. Pellentesque congue. Ut in risus volutpat libero pharetra tempor. Cras vestibulum bibendum augue. Praesent egestas leo in pede. Praesent blandit odio eu enim. Pellentesque sed dui ut augue blandit sodales. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aliquam nibh. Mauris ac mauris sed pede pellentesque fermentum. Maecenas adipiscing ante non diam sodales hendrerit.
+ This makes Belfort an ideal place to study the sexualization of social relations in 19th-century Europe. These relationships will first be understood through the study of out-of-wedlock births, in their socio-cultural and bio-demographic dimensions. In line with our initial hypothesis, the random sampling of 1010 birth certificates to build a manual transcription database shows that the number of births outside marriage peaks in the century in the decade following the annexation of Alsace-Moselle to Germany and then remains at a high level. In fact, after 1870, Alsatians arrived in the city in droves, first to escape annexation by Germany, then to follow Alsatian employers who were relocating their mechanical and textile industries to Belfort: the documents needed for marriage were now found beyond the new border, while the presence of a large military population (the department had by far the highest number of single men at the beginning of the 20th century) fueled legal and illegal prostitution and, in part, the number of births out of wedlock. In the long term, this project will also enable us to answer many other questions related to event history analysis, a method that is currently undergoing major development, thanks to artificial intelligence (AI), and which is profoundly modifying the questions raised by historical demography and social history.
 
-## Quarto Usage
+ The contributions of deep learning make it possible to plan a complete analysis of Belfort's birth (ECN) and death (ECD) civil registers (1807-1919), thanks to HTR methods applied to these sources (two interdisciplinary computer science-history theses in progress). This project is part of the SOSI CNRS ObHisPop (Observatoire de l'Histoire de la Population française: grandes bases de données et IA), which federates seven laboratories and aims to share the advances of interdisciplinary research in terms of automating the constitution of databases in historical demography. Challenges also include linking (matching individual data) the ECN and ECD databases, and eventually the DMC database (DMC is the city's main employer of women).
 
-For advanced users, we recommend exploring features as **Code Blocks**: Use triple backticks (```) to create code blocks. Specify the language for syntax highlighting (e.g., ```python`). Quarto lets you run code and embed its output directly into your document. See <https://quarto.org/docs/computations/inline-code.html> for guidance.
+The Belfort Civil Registers of Birth comprise 39,627 birth declarations inscribed in French in a hybrid format (printed and handwritten text). The declarations consist of four components (declaration number, declaration name, primary paragraph, marginal annotations) and provide information such as the child's name, parent's name, date of birth, and other details. The pages of the registers have been scanned at a resolution of 300 dpi each.
+Studying these invaluable resources is crucial for understanding the expansion of civilizations within Belfort. This necessitates establishing a knowledge database comprising all the information offered by these registers utilizing Artificial intelligence techniques, such as printed and handwritten text recognition models.
+The development of these models requires a training dataset to address the challenges imposed by these historical documents, such as text style variation, skewness, and overlapping words and text lines. 
+Two stages have been carried on to construct the training dataset. First, manual transcription of 1,010 declarations and 984 marginal annotations with a total of 21,939 text lines, 189,976 words, and 1,177,354 characters. This stage involves employing structure tags like XML tags to identify the characteristics of the declarations. 
+Second, an automatic text line detection method is utilized to extract the text lines within the primary paragraphs and the marginal annotation images in a polygon boundary to preserve the handwritten text. The method is developed based on analyzing the gaps between two consecutive text lines within the images. The detection process initially identifies the core of the text lines regardless of text skewness. Moreover, the process identifies the gaps based on the identified cores. The number of gaps between each two lines is determined based on a predefined parameter value. Each gap is analyzed by examining the density of black pixels within the central third of the gap region. If the black pixel density is low, a segment point is placed at the center. Otherwise, a histogram analysis is performed to identify minimum valleys, which are then used as potential segment points. Finally, all the localized segment points are connected to form the boundary of the text in a polygon shape. 
+The Intersection over Union (IoU), Detection Rate (DR), Recognition Accuracy (RA), and F-Measure (FM) metrics have been employed to provide a comprehensive evaluation of different performance aspects of the method, achieving accuracies of 97.5% IoU, 99% DA, 98% (RA), and 98.50% (FM) for the detection of the text lines within the primary paragraphs. Moreover, the marginal annotations exhibit accuracies of 93.1%, 96%, 94%, and 94.79% across the same metrics, respectively.
+A structured data tool has been developed for correlating the extracted text line images with their corresponding transcriptions at both the paragraph and text line levels by generating .xml files. These files structure the information within the registers based on the reading order of the components within the document and assign a unique index number for each. Additionally, several essential properties are incorporated within each component block, including the component name, the coordinates within the image, and the corresponding transcribed text. The .xml file generation processes are ongoing to expand the structured declarations to enrich the dataset essential for training artificial intelligence models.
 
-```{python}
-#| output: false
-import pandas as pd
-import matplotlib.pyplot as plt
-import numpy as np
+Belfort Civil Registers of Death (ECD) are composed of 39,238 death declarations with 18,381 fully handwritten certificates and 20,857 hybrid certificates. This corpus spans from 1807 to 1919. ECDs have the same resolution (300 dpi) and the same structure as the Civil Registers of Birth (ECN). The information given by each declaration is somewhat different: the name, the age, the profession of the deceased, the place of death, and even the profession of the witness, can be found.
+Concerning ECDs, a different strategy was chosen for the text segmentation and the data extraction: the Document Attention Network (DAN). This network recently published is used to get rid of the pre-segmentation step which is highly beneficial for the heterogeneity of our dataset. It was developed for the recognition of handwritten dataset such as READ 2016 and RIMES 2009. Moreover, this architecture can focus on relevant parts of the document, improving the precision and identifying and extracting specific segments of interests. The choice was also made because this network is very efficient in handling large volumes of data while maintaining data integrity.
+The DAN architecture is made of a Fully Convolutional Network (FCN) encoder to extract feature maps of the input image. This type of network is the most popular approach for pixel-pixel document layout analysis because it maintains spatial hierarchies. Then, a transformer is used as a decoder to predict sequences of variable length. Indeed, the output of this network is a sequence of tokens describing characters of the French language or layout (beginning of paragraph or end of page for instance). These layout tokens or tags were made to structure the layout of a register double page and to unify the ECD and ECN datasets. The ECD training dataset was built by picking around four certificates each year of the full dataset. For the handwritten records (1807-1885) the first two declarations of the double page were annotated and the first four for the hybrid records (1886-1919). This led to annotating 460 declarations for the first period and 558 declarations for the second one to give a total of 1118 annotated death certificates. We are currently verifying these annotations to start the pre-training phase of the DAN in the coming months.
 
-# Create some simple synthetic historical data
-np.random.seed(0)
-years = pd.date_range('1900-01-01', periods=120, freq='Y')
-values = np.random.normal(loc=0, scale=1, size=120).cumsum()
 
-data = pd.DataFrame({
-    'Year': years.year,
-    'Value': values
-})
 
-# Save the data to a CSV file
-data.to_csv('data/sample_data.csv', index=False)
-```
-
-```{python}
-#| label: fig-plots
-# Plotting the data
-plt.figure(figsize=(10, 6))
-plt.plot(data['Year'], data['Value'], marker='o')
-plt.title('Synthetic Historical Data')
-plt.xlabel('Year')
-plt.ylabel('Value')
-plt.grid(True)
-plt.show()
-```
